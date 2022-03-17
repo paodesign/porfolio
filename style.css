@@ -1,0 +1,103 @@
+.navbar a {
+    color: rgb(163, 160, 160);
+}
+
+.container h1 {
+    color: #BA2F39;
+}
+
+.btn {
+    background: #BA2F39
+}
+
+.btn:hover {
+    background: #FC3F4D;
+}
+
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/heroFoto.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    color: #A2000C;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+}
+.hero-text > p {
+    color: #A2000C;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color:#FC3F4D;
+}
+.servicesText:hover {
+    border: 1px solid #FC3F4D;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+
+div a {
+    color:  #e5e8ee;;
+}
+
+div a:hover {
+    color:  #FC3F4D;
+}
+
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
